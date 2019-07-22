@@ -1,1 +1,6 @@
 index
+
+<% @visits.each do |visit| %>
+  <h2><%= visit.name %></h2>
+  <p><%= visit.price %></p>
+<% end %>
